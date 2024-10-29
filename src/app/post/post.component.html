@@ -1,0 +1,32 @@
+<div class="container">
+
+    <table>
+        <thead>
+            <tr>
+                <th>UserID</th>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Content</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>{{post?.userId}}</td>
+                <td>{{post?.id}}</td>
+                <td>{{post?.title}}</td>
+                <td>{{post?.body}}</td>
+                <td>
+                    <button (click)="onEdit(post)">
+                        <mat-icon>edit</mat-icon>
+                    </button>
+                    <button (click)="onDelete(post)">
+                        <mat-icon>delete</mat-icon>
+                    </button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>

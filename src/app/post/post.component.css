@@ -1,0 +1,54 @@
+.container {
+    width: 75%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+thead {
+    background-color: #333;
+    color: white;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #444;
+    color: #f0f0f0;
+}
+
+
+button {
+    background: none;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #ffcc00;
+
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+
+}
